@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+body {
+  background-color: #DAD7CD;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #588157;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(4, 123, 53, 0.4);
+}
+
+h1 {
+  color: #344E41;
+  font-family: 'Poppins';
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+h2{
+  color: #3A5A40;
+  font-family: 'Poppins';
+  font-size: 18px;
+  letter-spacing: 3.5px;
+}
+
+h3 {
+  color: rgb(164, 139, 183);
+}
+
+a {
+  color: #A3B18A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #344E41;
+  font-size: 18px;
+  animation-duration: 1.3s;
+}
+
+div {
+  padding: 20px;
+  margin: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(5, 5, 7, 0.1);
+  text-align: center;
+}
+
+#alignement-formation {
+  text-align: left;
+}
+
+.container {
+  width: 900px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#card_hover:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: 0.3s;
+  }
+
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
